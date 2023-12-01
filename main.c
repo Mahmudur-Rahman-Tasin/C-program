@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int type()
+int main()
 {
     int n=0;
     scanf("%d",&n);
