@@ -1,5 +1,4 @@
-![image](https://github.com/Mahmudur-Rahman-Tasin/C-program/assets/85746604/a62e245b-c4b0-474f-a80a-bf0a606e37ee)
-
+![image](https://github.com/Mahmudur-Rahman-Tasin/C-program/assets/85746604/a62e245b-c4b0-474f-a80a-bf0a606e37ee)    
 input-output    
 operator   
 math: gcd-lcm     
@@ -14,5 +13,7 @@ RECURSION
 POINTER   
 file   
 structure   
+![image](https://github.com/Mahmudur-Rahman-Tasin/C-program/assets/85746604/68d96482-db5f-4485-b3f7-db538988d8c2)
+
 
 
