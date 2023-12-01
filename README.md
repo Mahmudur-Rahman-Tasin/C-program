@@ -2,13 +2,13 @@
 
 input-output    
 operator   
-math     
+math: gcd-lcm     
 control statement: if, else, switch   
 loop: for, while    
 series    
 pattern   
 array 1d, 2d   
-string, UNIQUE   
+string: UNIQUE words, sorting, counting   
 function   
 RECURSION   
 POINTER   
