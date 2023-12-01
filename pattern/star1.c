@@ -3,11 +3,11 @@
 int main()
 {
     int n,m,j,i;
-    printf("pashapashi : ");
+    printf("Column : ");
     scanf ("%d",&n);
 
 
-    printf("lombalombi : ");
+    printf("Row : ");
     scanf ("%d",&m);
 
     for(j=1;j<=m;j++)
