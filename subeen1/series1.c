@@ -3,7 +3,7 @@
 
 int main()
 {
-    printf("Odd Summation series from 1 to user inputted number sequentially!\n");
+    printf("Odd Summation series from 1 to user inputted number sequentially\n");
     int i;
     float n,sum=0;//n is the last term of the series
     scanf("%f",&n);
