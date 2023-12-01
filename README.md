@@ -13,7 +13,8 @@ RECURSION
 POINTER   
 file   
 structure   
-![image](https://github.com/Mahmudur-Rahman-Tasin/C-program/assets/85746604/68d96482-db5f-4485-b3f7-db538988d8c2)
+![image](https://github.com/Mahmudur-Rahman-Tasin/C-program/assets/85746604/68d96482-db5f-4485-b3f7-db538988d8c2)   
+
 
 
 
