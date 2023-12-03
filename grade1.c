@@ -19,7 +19,7 @@ int main()
         printf("C");
     else if(n>=40)
         printf("D");
-    else if(n<40&&n>=0) printf("F (Fail) ");
+    else if(n<40 && n>=0) printf("F (Fail) ");
     else printf("Invalid input");
 
     return 0;
