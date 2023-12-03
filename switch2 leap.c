@@ -3,11 +3,7 @@
 int main()
 {
     int month,year;
-
-    // Input month number, year from user 
-
     scanf("%d %d", &month,&year);
-
 
     switch(month)
     {
@@ -15,7 +11,7 @@ int main()
             printf("31 days");
             break;
         case 2:{ 
-            if(year%4==0)printf("29 days");//leap
+            if((year%4==0 && year%100!=0)||(year%400 == 0)) printf("29 days");//2028,2000 leap year. 1700,1900 not leap year
             else printf("28 days");
             break;}
         case 3: 
