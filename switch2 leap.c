@@ -10,8 +10,8 @@ int main()
         case 1: 
             printf("31 days");
             break;
-        case 2:{ 
-            if((year%4==0 && year%100!=0)||(year%400 == 0)) printf("29 days");//2028,2000 leap year. 1700,1900 not leap year
+        case 2:{ //2028 leap. 2000 leap. 1700,1900 not leap y
+            if((year%4==0 && year%100!=0)||(year%400 == 0)) printf("29 days"); //century na hole 4div, century jonno 400div
             else printf("28 days");
             break;}
         case 3: 
