@@ -5,7 +5,8 @@ math: gcd-lcm
 control statement: if, else, switch   
 loop: for, while    
 series    
-pattern   
+pattern  
+ 
 array 1d, 2d   
 string: UNIQUE words, sorting, counting   
 function   
