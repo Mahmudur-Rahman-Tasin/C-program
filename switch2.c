@@ -2,20 +2,22 @@
 //C program to print number of days in a month using switch case
 int main()
 {
-    int month;
+    int month,year;
 
-    // Input month number from user 
-    printf("Enter month number(1-12): ");
-    scanf("%d", &month);
+    // Input month number, year from user 
+
+    scanf("%d %d", &month,&year);
+
 
     switch(month)
     {
         case 1: 
             printf("31 days");
             break;
-        case 2: 
-            printf("28/29 days");
-            break;
+        case 2:{ 
+            if(year%4==0)printf("29 days");//leap
+            else printf("28 days");
+            break;}
         case 3: 
             printf("31 days");
             break;
