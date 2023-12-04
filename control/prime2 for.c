@@ -12,7 +12,7 @@ int main()
             break;//further check not needed
         }
     }
-    if(isPrime && num>=2) 
+    if(isPrime && num>=2) //or num!=1
         printf("%d prime",num);
     else 
         printf("%d not prime",num);//only 1 and num div
