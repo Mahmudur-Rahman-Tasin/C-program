@@ -8,7 +8,7 @@ int main()
     switch(datatype)
     {
         case 1:
-            printf("Size of Integer is %d bits\n",sizeof(int)*8);
+            printf("Size of Integer is %d bits\n",sizeof(int)*8);//this func returns bytes as integer
             break;
         case 2:
             printf("Size of Character is %d bits\n", sizeof(char)*8);
