@@ -8,7 +8,7 @@ int main()
     if(n>=80)
         printf("A+");
     else if(n>=75)
-        printf("A");
+        printf("A");//linear so, input 81 reads first if initially, then bypasses all else 
     else if(n>=70)
         printf("A-");
     else if(n>=65)
