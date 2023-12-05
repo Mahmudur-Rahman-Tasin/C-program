@@ -6,7 +6,7 @@ int main()
     scanf("%d %d", &month,&year);
 
     switch(month)
-    {
+    { //fall thru prop: same cases together without expression 
         case 1: 
             printf("31 days");
             break;
