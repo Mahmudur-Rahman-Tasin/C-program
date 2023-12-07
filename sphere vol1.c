@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#define PI 3.141593
 int main()
 {
 int r; double v; double pi=22/7.0;
