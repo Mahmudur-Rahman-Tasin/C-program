@@ -8,12 +8,11 @@ int main(){
     else min=b;
     while(i<=min){
         if(a%i==0 && b%i==0){
-            gcd=i;
-            printf("gcd of %d, %d is %d\n",a,b,gcd);
-            
+            gcd=i;    
     }
-        i++;
+    i++;
     }
+    printf("gcd of %d, %d is %d\n",a,b,gcd);
 
     return 0;
 }

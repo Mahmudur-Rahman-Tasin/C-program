@@ -5,8 +5,8 @@ int main() {
 prod=1;
 for(i=1; i<5; i++)
 {
-sum+=i;
-prod*=i;
+    sum=sum+i; //sum+=i;
+    prod=prod*1; //prod*=i;
 }
 printf("sum, prod is %d, %d\n", sum, prod)
 
