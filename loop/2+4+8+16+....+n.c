@@ -1,21 +1,14 @@
 #include <stdio.h>
-
 int main()
 {
-  int n, sum, firstTerm = 2, multiplier = 2;
+   int n,p=1,i,sum=0;
+   scanf("%d",&n);
 
-  printf("Enter the number of terms (n): ");
-  scanf("%d", &n);
-  if (n <= 0) {
-    printf("Number of terms must be greater than 0!\n");
-    return 1;
-  }
-  sum = firstTerm;
-  for (int i = 1; i < n; i++) {
-    firstTerm *= multiplier;
-    sum += firstTerm;
-  }
-  printf("The sum of the series is: %d\n", sum);
-
-  return 0;
+   for(i=1;i<=n;i++){
+       p=p*2; //2 er power sobai
+       sum=sum+p; //0 sathe 2^1 add hobe
+   }
+   
+   printf("%d",sum);
+   return 0;
 }
