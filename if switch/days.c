@@ -77,7 +77,7 @@ int main() {
         case 1: printf("THURSDAY"); break;
     
     }break ;
-    default: printf("Invalid date or month");
+    default: printf("Invalid month");
     }
     return 0;
 }
