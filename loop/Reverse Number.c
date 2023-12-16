@@ -3,19 +3,16 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,b=0,c=0;
+    int n,i,b;
 
     printf("Enter a number:");
     scanf("%d",&n);
 
-    for (;n!=0;)
+    for (;n>0;n=n/10)
     {
-        c=c*10;
         b=n%10;
-        c=c+b;
-        n=n/10;
+        printf("%d",b);
     }
-    printf("%d  ",c);
 
 return 0;
 }
