@@ -2,7 +2,7 @@
 int main()
 {
 double f;
-f=7/2.0;
+f=7/2.0; //ebar float div
 printf ("%lf \n", f);
 return 0;
 }

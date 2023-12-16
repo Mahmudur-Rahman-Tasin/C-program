@@ -4,7 +4,7 @@ int main(void)
 {
 char ch;
 int i;
-ch=getche();
+ch=getch();
 printf("\n");
 for(i=128; i>0; i=i/2)
 if(i & ch) printf("1 ");
