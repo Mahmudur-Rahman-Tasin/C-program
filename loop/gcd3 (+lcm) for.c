@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main(){
-    int a,b,min,i,gcd;
+    int a,b,min,i,gcd,lcm;
     scanf("%d %d",&a,&b);
 
     if(a<b) min=a;
@@ -14,6 +14,10 @@ int main(){
             //printf("gcd of %d, %d is %d\n",a,b,gcd); only common factors show korto
         }
     }
-    printf("gcd of %d, %d is %d\n",a,b,gcd);    
+    printf("gcd of %d, %d is %d\n",a,b,gcd);  
+    
+    lcm=(a*b)/gcd;
+    printf("lcm of %d, %d is %d\n",a,b,lcm);
+    
     return 0;
 }
