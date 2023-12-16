@@ -1,3 +1,5 @@
+//Find the sum of the series x-x^3+x^5-...
+
 #include<stdio.h>
 
 int main()
