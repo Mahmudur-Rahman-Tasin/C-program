@@ -3,13 +3,12 @@
 int main()
 {
     int i, n;
-    float x, sum=1, t;
+    float x, sum, t;
 
     scanf("%f",&x); //degree input
     scanf("%d",&n); //accuracy of terms
 
     x=x*3.14159/180;
-
     t=x; //first term er sathe gun hobe
     sum=x; //age theke first term ache
 

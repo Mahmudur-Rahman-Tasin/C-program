@@ -4,11 +4,11 @@ int main() {
     int decimal_num, binary_num = 0, i = 1, remainder;
 
     printf("Enter a decimal number: ");
-    scanf("%d", &decimal_num);
+    scanf("%d", &decimal_num); //3
 
     while (decimal_num != 0) {
-        remainder = decimal_num % 2;
-        decimal_num /= 2;
+        remainder = decimal_num % 2; //1
+        decimal_num /= 2; //2
         binary_num += remainder * i;
         i *= 10;
     }
