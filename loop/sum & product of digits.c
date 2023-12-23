@@ -5,12 +5,12 @@ int main()
 {
     int n,d=0,sum, product=1;
     scanf("%d",&n);
-    for(;n!=0;) //or n>0 or while
+    for(;n!=0;)
     {   
-        d=n%10; //remainder is last digit
+        d=n%10;
         sum=sum+d;
         product=product*d;
-        n=n/10; //excludes last digit from number
+        n=n/10;
 
     }
     printf("Sum: %d\n",sum);
