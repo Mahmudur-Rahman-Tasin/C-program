@@ -1,23 +1,21 @@
-#include<stdio.h>
+
+#include <stdio.h>
 
 int main()
 {
-    int i, n;
-    float x, sum, t;
-
-    scanf("%f",&x); //degree input
-    scanf("%d",&n); //accuracy of terms
-
+    int n,i;
+    double x,sum=0,t;
+    scanf("%lf %d",&x,&n);
     x=x*3.14159/180;
-    t=x; //first term er sathe gun hobe
-    sum=x; //age theke first term ache
-
-    for(i=1;i<=n;i++)
+    //x=22.0*x/ (7*180) ; typecast how?
+    sum=x;
+    t=x;
+    for(i=1;i<n;i++)
     {
-        t=t*(-1)*x*x/(2*i*(2*i+1)); //VVI, age niche - chilo ekhon +, 2nd term
-        sum=sum+t; 
+        t=t*(-1)*x*x/(2*i*(2*i+1)) ;
+        sum=sum+t ;
     }
-     
-    printf(" The value of sin(%f) is : %.4f", x, sum);
+    printf("sin(%lf) = %lf",x,sum);
+
     return 0;
 }
