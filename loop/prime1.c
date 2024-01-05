@@ -3,15 +3,21 @@
 #include <math.h>
 
 int main(){
-    int i,num,isPrime=1;//flag variable
+    int i,num,isPrime=1;
     scanf("%d",&num);
-     if(num <= 1) isPrime = 0;  // 0 and 1 are not prime numbers
+     if(num <= 1) isPrime = 0;
      
-    for(i=2;i<=sqrt(num);i++){//i factor counter or sqrt
-        if(num%i==0){isPrime=0;break;}//6 er factor paisi,tai nonprime
+    for(i=2;i*i<=num;i++)
+    {
+        if(num%i==0)
+        {
+            isPrime=0;
+            break;
+        }
     }
-        if(isPrime==1) printf("%d is prime\n",num);
-        else printf("%d is not prime\n",num);
+    
+    if(isPrime==1) printf("%d is prime\n",num);
+    else printf("%d is not prime\n",num);
         return 0;
     }
 
