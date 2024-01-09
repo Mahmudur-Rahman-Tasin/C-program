@@ -4,16 +4,13 @@ int main()
 {
     int num,rev=0,digit;
     scanf("%d",&num);
-
     for(;num!=0;num=num/10)
     {
         rev=rev*10 + num%10 ;
     }
-
     for(;rev!=0;rev=rev/10)
     {
         digit=rev%10;
-
         switch(digit)
         {
             case 0: printf("zero ");break;

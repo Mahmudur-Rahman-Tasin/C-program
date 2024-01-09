@@ -2,22 +2,20 @@
 
 int main()
 {
-    int i, n;
-    float x, sum, t;
+    int i;
+    double x, sum, t;
+    scanf("%lf",&x);
 
-    scanf("%f",&x); //degree input
-    scanf("%d",&n); //accuracy of terms
-     
     x=x*3.14159/180;
-    t=1; //1 er sathe gun hoye nxt term
-    sum=1; //first term 1 er sathe add
+    sum=1;
+    t=1;
 
-    for(i=1;i<=n;i++)
+    for(i=1; fabs(t)>1e-7 ;i++)
     {
-        t=t*(-1)*x*x/(2*i*(2*i-1)); //VVI
+        t=t*(-1)*x*x/(2*i*(2*i-1));
         sum=sum+t;
     }
-     
-    printf(" The value of Cos(%f) is : %.4f", x, sum);
+
+    printf("The value of Cos(%lf) is : %lf", x, sum);
     return 0;
 }
