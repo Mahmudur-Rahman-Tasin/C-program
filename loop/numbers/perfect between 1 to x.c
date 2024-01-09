@@ -17,7 +17,7 @@ int main()
         if(sum==n)
         {
             printf("%d ",sum);
-            c++;
+            c++;                        //counts how many perfect it encounters
         }
     }
     printf("\nTotal %d",c);
