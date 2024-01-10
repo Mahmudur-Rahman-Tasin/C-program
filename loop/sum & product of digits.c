@@ -3,17 +3,18 @@
 
 int main()
 {
-    int n,d=0,sum, product=1;
+    int n,d,sum,p,i;
     scanf("%d",&n);
-    for(;n!=0;)
-    {   
+    for(i=0,d=0,p=1;n!=0;i++)
+    {
         d=n%10;
-        sum=sum+d;
-        product=product*d;
+        sum=sum+d;                          //sum+=d;
+        p=p*d;
         n=n/10;
 
     }
+    printf("No. of digits: %d\n",i);
     printf("Sum: %d\n",sum);
-    printf("Product: %d\n",product);
+    printf("Product: %d\n",p);
     return 0;
 }

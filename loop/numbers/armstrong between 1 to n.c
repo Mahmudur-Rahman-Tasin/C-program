@@ -9,15 +9,15 @@ int main()
         n1=k;
         n2=k;
         n3=k;
-        
-        for(i=1;n3!=0;i++)
+
+        for(i=0;n3!=0;i++)
         {
             n3=n3/10;
         }
         for(sum=0;n1!=0;n1=n1/10)
         {
             dig=n1%10;
-            for(p=1,j=1;j<i;j++)
+            for(p=1,j=1;j<=i;j++)
             {
                 p=p*dig;
             }

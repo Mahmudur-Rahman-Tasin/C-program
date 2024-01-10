@@ -10,7 +10,7 @@ int main()
         scanf("%d",&x);
         sum=sum+x;
     }
-    avg= (double)sum/n;
+    avg= (double)sum/n;                     //typecast
     printf("%lf",avg);
     return 0;
 }
