@@ -2,8 +2,8 @@
 
 long fact(int n)
 {
-    if(n!=0) return n*fact(n-1);                      // LAST IN, first out. 5*4*3*2*1 barbar recursive call
-    else return 1;                                  //laste giye 1 lagbe tai, stopping criteria
+    if(n==0) return 1;                                  //  fact(0) te 1 hobe stopping criteria
+    else return n*fact(n-1);                            // LAST IN, first out. n=1 theke shuru recursive call
 }
 int main()
 {
