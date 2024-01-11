@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 double baseExpo(int base, int expo)
-{
+{                                      //ekhane abar base expo declare korar jabe na 
     int i;
     double r=1,neg;
     neg=expo;                           //neg er moddhe - shoho ta rakhlam

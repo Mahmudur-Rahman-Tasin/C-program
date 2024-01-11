@@ -2,10 +2,10 @@
 
 int main()
 {
-    int n,i,sum,x,c=0;
-    scanf("%d",&x);
+    int n,i,sum,l,u,c=0;
+    scanf("%d %d",&l,&u);
 
-    for(n=1;n<=x;n++)
+    for(n=l;n<=u;n++)
     {
         for(i=1,sum=0;i<n;i++)
         {
