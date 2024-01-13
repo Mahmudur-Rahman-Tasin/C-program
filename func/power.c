@@ -4,13 +4,20 @@ double baseExpo(int base, int expo)
 {                                      //ekhane abar base expo declare kora jabe na 
     int i;
     double r=1,neg;
-    neg=expo;                           //neg er moddhe - shoho ta rakhlam
-    expo=(expo<1)? -expo:expo;                        //expo positive banaye power value pabo tai;
-    for(i=0;i<expo;i++)
+    if(expo<0)
+    {
+        neg=expo;
+        expo=-expo;
+    }
+    for(i=1;i<=expo;i++)
     {
         r=r*base;
     }
-    return (neg<0)? 1/r:r;
+    if(neg<0)
+    {
+        return 1/r;
+    }
+    else return r;
 
 }
 
