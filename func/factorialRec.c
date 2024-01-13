@@ -3,6 +3,7 @@
 long fact(int n)
 {
     if(n==0) return 1;                                  //  fact(0) te 1 hobe stopping criteria
+    if(n==1) return 1;
     else return n*fact(n-1);                            // LAST IN, first out. n=1 theke shuru recursive call
 }
 int main()
