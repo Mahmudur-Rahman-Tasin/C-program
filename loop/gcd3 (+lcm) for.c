@@ -11,7 +11,7 @@ int main(){
     for(i=1;i<=min;i++){
         if(a%i==0 && b%i==0){
             gcd=i;
-            //printf("gcd of %d, %d is %d\n",a,b,gcd); only common factors show korto
+                                                //printf("gcd of %d, %d is %d\n",a,b,gcd); only common factors show korto
         }
     }
     printf("gcd of %d, %d is %d\n",a,b,gcd);  
