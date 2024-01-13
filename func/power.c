@@ -5,12 +5,12 @@ double baseExpo(int base, int expo)
     int i;
     double r=1,neg;
     neg=expo;                           //neg er moddhe - shoho ta rakhlam
-    expo=expo<1? -expo:expo;                        //expo positive banaye power value pabo tai;
+    expo=(expo<1)? -expo:expo;                        //expo positive banaye power value pabo tai;
     for(i=0;i<expo;i++)
     {
         r=r*base;
     }
-    return neg<0? 1/r:r;
+    return (neg<0)? 1/r:r;
 
 }
 
