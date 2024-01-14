@@ -3,10 +3,10 @@
 double baseExpo(int base, int expo)
 {                                      //ekhane abar base expo declare kora jabe na 
     int i;
-    double r=1,neg;
+    double r=1;
     if(expo<0)
     {
-        neg=expo;
+        double neg=expo;
         expo=-expo;
     }
     for(i=1;i<=expo;i++)
