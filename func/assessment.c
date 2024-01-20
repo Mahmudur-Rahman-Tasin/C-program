@@ -22,7 +22,7 @@ int main()
     int a,b;
     scanf("%d %d",&a,&b);
     printf(" No. of common factors %d",commonfacno(a,b));
-    (relativeprime(a,b)==1)? printf("\nRelatively Prime"): printf("Not Relatively Prime");
+    (relativeprime(a,b)==1)? printf("\nRelatively Prime"): printf("\nNot Relatively Prime");
 
     return 0;
 }
