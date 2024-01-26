@@ -3,7 +3,7 @@ int main()
 {
     int n=5,i,min,index,j,temp;
     int a[]={4,89,0,4,-1};
-    for(i=0;i<n-1;i++)
+    for(i=0;i<n-1;i++)                                  //finding minimum and diving into sorted unsorted part
     {
         min=a[i];
         index=i;
