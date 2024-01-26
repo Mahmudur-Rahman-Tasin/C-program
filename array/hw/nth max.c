@@ -9,11 +9,11 @@ int main()
     {
         scanf("%d",&a[i]);
     }
-    for(i=0;i<n;i++)                                    //seperate scan for every adjacent numbers
+    for(i=0;i<n;i++)
     {
         for(j=i+1;j<n;j++)
         {
-            if(a[i]>a[j])                               //a[i]<a[j] descending
+            if(a[i]<a[j])
             {
                 temp=a[i];
                 a[i]=a[j];
@@ -25,5 +25,9 @@ int main()
     {
         printf("%d ",a[i]);
     }
+    int nth;
+    scanf(" %d",&nth);
+    printf("%d",a[nth-1]);
+
     return 0;
 }
