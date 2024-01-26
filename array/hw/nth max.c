@@ -27,7 +27,7 @@ int main()
     }
     int nth;
     scanf(" %d",&nth);
-    printf("%d",a[nth-1]);
+    printf("\n %d tomo max is %d",nth,a[nth-1]);
 
     return 0;
 }
