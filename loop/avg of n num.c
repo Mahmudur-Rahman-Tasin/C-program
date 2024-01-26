@@ -8,7 +8,7 @@ int main()
     for(i=1;i<=n;i++)
     {
         scanf("%d",&x);
-        sum=sum+x;
+        sum=sum+x;                          //var overwrite kortesi barbar
     }
     avg= (double)sum/n;                     //typecast
     printf("%lf",avg);
