@@ -1,2 +1,0 @@
-Bubble sort involves comparing and potentially swapping two adjacent elements. If the elements are in the correct order, we move to the next pair. Selection sort involves finding the smallest element in the list and swapping it with the first element in the unsorted portion of the list.
-
