@@ -18,8 +18,7 @@ int main()
     }
     for(i=0;i<n;i++)
         {
-            if(f[i]>1) continue;
-            printf("%d occurs %d times\n",a[i],f[i]);
+            printf("%d occurs %d times\n",a[i],f[i]);                       //duibar count??
             
         }
     return 0;
