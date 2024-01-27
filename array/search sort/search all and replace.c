@@ -11,7 +11,7 @@ int main()
     }
     scanf("%d %d",&t,&neww);
 
-    for(i=0;i<n;i++)
+    for(i=0;i<n;i++)                            
     {
         if(a[i]==t)
         {

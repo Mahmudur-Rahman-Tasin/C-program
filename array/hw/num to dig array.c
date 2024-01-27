@@ -12,7 +12,7 @@ int main()
     printf("Total %d digits\n",i);
     for(k=i;k>0;k--)
     {
-        dig[k]=n%10;                            //dig0 te jete parbena so garbage, j=1 theke
+        dig[k]=n%10;                            //dig0 te jete parbena so garbage, j=1 theke kora lagbe
         n=n/10;
     }
     for(j=1;j<i+1;j++)
