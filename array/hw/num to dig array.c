@@ -5,12 +5,12 @@ int main()
     scanf("%d",&n);
     n1=n;
     int dig[50];
-    for(i=0;n1!=0;i++)
+    for(i=0;n1!=0;i++) //count digit
     {
         n1=n1/10;
     }
     printf("Total %d digits\n",i);
-    for(k=i;k>0;k--)
+    for(k=i;k>0;k--) //assign from last index
     {
         dig[k]=n%10;                            //dig0 te jete parbena so garbage, j=1 theke kora lagbe
         n=n/10;
