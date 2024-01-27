@@ -2,7 +2,7 @@
 #include<conio.h>
 int main()
 {
-    int t,t1,i,j,k=0,l,n,m,temp,flag;
+    int t,t1,i,j,k,l,n,m,temp,flag;
     printf("\nEnter number of test case : ");
     scanf("%d",&t);
 
@@ -30,9 +30,9 @@ int main()
         //merge in a new array
         int arr3[20];
 
-        for(i=0; i<(m+n) ;i++)
+        for(i=0,k=0; i<(m+n) ;i++)
         {
-            if(i<m)
+            if(i<m) // age m jabe 
             {
                 arr3[i]=arr1[i];
             }
@@ -80,7 +80,7 @@ int main()
 
          for(i=0; i<size; i++)
     {
-        for(j=i+1; j<size; j++)
+        for(j=i+1; j<size; j++) //ekta num niye daner shobar sathe check
         {
             /* If any duplicate found */
             if(arr3[i] == arr3[j])
