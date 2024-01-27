@@ -16,7 +16,7 @@ int main()
             if(a[i]>a[j])                               //a[i]<a[j] descending
             {
                 temp=a[i];
-                a[i]=a[j];
+                a[i]=a[j];  // min age jabe
                 a[j]=temp;
             }
         }
