@@ -14,10 +14,10 @@ int main()
         if(a[i]==t)
         {
             printf("Found at index %d\n",i);            
-            i2=i;                                     
-            //break;                                    only first occurrence
+            i2=i;  //  all occurrences                                
+            //break;                               first occurrence
         }
-        // else if(a[i]>t) break;                       if sorted
+        // else if(a[i]>t) break;                        sorted
     }
     if(i2==-1) printf("Not found");
 
