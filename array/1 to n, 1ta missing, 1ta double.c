@@ -3,11 +3,7 @@ int main()
 {
     int n=3,i,j,temp,sum=0,sum2=0;
     int a[]={3,1,3};
-    int a2[n];
-    for(i=0;i<n;i++)    //dup
-    {
-        a2[i]=a[i];
-    }
+
     for(i=0;i<n;i++)    //ascending sort                                    //seperate scan for every adjacent numbers
     {
         for(j=i+1;j<n;j++)
@@ -20,7 +16,7 @@ int main()
             }
         }
     }
-    for(i=1;i<=n;i++)
+    for(i=1;i<=n;i++)   //sum diff thekei missing
     {
         sum=sum+i;
     }
