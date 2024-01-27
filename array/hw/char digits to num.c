@@ -4,9 +4,10 @@ int main()
     int n,i,j;
     char c[100];
 
-    for(i=0;c[i-1]!='\n';i++)                             // enter dile break
+    for(i=0;;i++)                             // enter dile break
     {
         scanf("%c",&c[i]);
+        if(c[i-1]!='\n') break;
     }
     int no[i];
     for(j=0;j<i;j++)
