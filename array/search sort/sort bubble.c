@@ -9,7 +9,7 @@ int main()
     {
         scanf("%d",&a[i]);
     }
-    for(i=0;i<n;i++)                                    //seperate scan for every adjacent numbers
+    for(i=0;i<n-1;i++)                                    //seperate scan for every adjacent numbers
     {
         for(j=i+1;j<n;j++)
         {
