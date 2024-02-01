@@ -1,11 +1,26 @@
 #include <stdio.h>
-
+// string.h strlen strcopy strcmp strcat strrev 
 int myStrlen(char s[100])
 {
     int i=0;
-    while(s[i]!='\0') // cseN i=3ta letter
-        i++; 
+    while(s[i]!='\0')       // until null count
+        i++;                // cseN i=3ta letter
     return i;
+}
+void myStrcpy(char to[100],char from[100])
+{
+    int i=0;
+    while((to[i]=from[i])!='\0')    //assign until null
+        i++;
+    return;
+}
+int myStrcmp(char s[100],char t[100])
+{
+    int i;
+    for(i=0;s[i]==t[i];i++) 
+        if(s[i]=='\0') 
+            return 0;
+    return s[i]-t[i];   //
 }
 void myStrrev(char s[100])
 {
@@ -19,27 +34,12 @@ void myStrrev(char s[100])
     }
     return;
 }
-int myStrcmp(char s[100],char t[100])
-{
-    int i;
-    for(i=0;s[i]==t[i];i++) 
-        if(s[i]=='\0') 
-            return 0;
-    return s[i]-t[i];   //
-}
-void myStrcpy(char to[100], char from[100])
-{
-    int i=0;
-    while((to[i]=from[i])!='\0')
-    i++;
-    return ;
-}
 void myStrcat(char s[100], char t[100], char dest[100])
 {
     int i=0, j=0;
-    while((dest[i]=s[i])!='\0')
-    i++;
-    while((dest[i++]=t[j++])!='\0')
+    while((dest[i]=s[i])!='\0')     //assign s until null
+        i++;
+    while((dest[i++]=t[j++])!='\0') //assign t after that i
     ;
     return ;
 }
@@ -63,5 +63,5 @@ int main()
     int cmp=myStrcmp(s,t);
     printf("strcmp result: %d",cmp);
     
-return 0;
+    return 0;
 }
