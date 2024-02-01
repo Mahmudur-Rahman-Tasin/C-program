@@ -3,15 +3,15 @@
 int myStrlen(char s[100])
 {
     int i=0;
-    while(s[i]!='\0')
-    i++;
+    while(s[i]!='\0') // cseN i=3ta letter
+        i++; 
     return i;
 }
 void myStrrev(char s[100])
 {
-    int i=0,j=myStrlen(s)-1;
+    int i=0,j=myStrlen(s)-1; // j=2ta index
     char temp;
-    for(;i<j;i++, j--)
+    for(;i<j;i++,j--)   //c and e interchange
     {
         temp=s[i];
         s[i]=s[j];
@@ -19,13 +19,13 @@ void myStrrev(char s[100])
     }
     return;
 }
-int myStrcmp(char s[100], char t[100])
+int myStrcmp(char s[100],char t[100])
 {
     int i;
-    for(i=0;s[i]==t[i];i++)
-    if(s[i]=='\0')
-    return 0;
-    return s[i]-t[i];
+    for(i=0;s[i]==t[i];i++) 
+        if(s[i]=='\0') 
+            return 0;
+    return s[i]-t[i];   //
 }
 void myStrcpy(char to[100], char from[100])
 {
@@ -45,9 +45,8 @@ void myStrcat(char s[100], char t[100], char dest[100])
 }
 int main()
 {
-    char s[100], t[100], r[100];
+    char s[100],t[100],r[100];
     gets(s);
-    
     printf("string length=%d\n",myStrlen(s));
     myStrcpy(t, s);
     printf("copied string: ");
@@ -55,7 +54,6 @@ int main()
     printf("Enter enter string to concatenate: ");
     gets(t);
     printf("concatenated string: ");
-    myStrcpy(t, s);
     myStrcat(s, t, r);
     puts(r);
     printf("Reversed concatenated string: ");
