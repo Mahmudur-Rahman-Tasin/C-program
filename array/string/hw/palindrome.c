@@ -2,30 +2,19 @@
 
 int main()
 {
-    char str[100];
+    char str[]={"madam"};
+    //strlen
     int len=0;
-    gets(str);
     while(str[len] != '\0') len++;
-    int startIndex = 0;
-    int endIndex   = len-1;
-    
-    while(startIndex <= endIndex)
-    {
-        if(str[startIndex] != str[endIndex])
-            break;
 
-        startIndex++;
-        endIndex--;
+    int i=0,j=len-1;
+
+    for(i=0,j=len-1;i<=j;i++,j--)
+    {
+        if(str[i] != str[j]) break;
     }
 
-    if(startIndex >= endIndex)
-    {
-        printf("String is Palindrome.");
-    }
-    else
-    {
-        printf("String is Not Palindrome.");
-    }
+    if(i>=j) printf("Palindrome");
 
     return 0;
 }
