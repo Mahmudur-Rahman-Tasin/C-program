@@ -4,7 +4,8 @@ int main()
 {
     char t[100],r[100];
     char s[]={"madam"};
-    int i=0,j=0;
+    int i,j;
+    //strrev
     for(i=strlen(s)-1,j=0;i>=0;i--,j++)
     {
         t[j]=s[i];
