@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//string.h needed ???
 int main()
 {
     int c,i;
@@ -7,7 +7,7 @@ int main()
     gets(s);
     for(i=0,c=1;i<strlen(s);i++)
     {
-        if(s[i+1]==s[i]) c++; // s1=s0, s2=s1, not s3
+        if(s[i+1]==s[i]) c++; // aaabcccc, s1=s0, s2=s1, not s3
 
         else if(c==1)
         {
