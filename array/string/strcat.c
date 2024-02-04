@@ -7,8 +7,7 @@ int main()
     char s[100],t[100];
     gets(s);
     gets(t);
-    j=5;
-    for(i=0;i<strlen(t);i++,j++)
+    for(i=0,j=strlen(s);i<strlen(t);i++,j++)
     {
         s[j]=t[i];
     }
