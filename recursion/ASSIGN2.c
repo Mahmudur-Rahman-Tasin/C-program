@@ -17,6 +17,7 @@ int sumZeroRev(int sum)
 
 int main()
 {
-    sumZeroRev(0);
+    int sum=0;
+    sumZeroRev(sum);
     return 0;
 }
