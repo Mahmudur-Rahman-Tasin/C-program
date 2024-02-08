@@ -17,7 +17,6 @@ int main()
                 {
                     scanf("%d ",&mat[i][j]);
                 }
-                printf("\n");
             }
         }
         if(o==2)
@@ -57,5 +56,4 @@ int main()
         }
         if(o==5) return 0;
     }
-
 }
