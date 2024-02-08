@@ -22,9 +22,9 @@ int main()
         }
         if(o==2)
         {
-            for(i=0;i<r;i++)
+            for(i=0;i<r/2;i++)
             {
-                for(j=0;j<c/2;j++)
+                for(j=0;j<c;j++)
                 {
                     t=mat[i][j];
                     mat[i][j]=mat[r-i-1][j];
