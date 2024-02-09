@@ -7,15 +7,20 @@ int main()
 
     while(1)
     {
+        printf("Enter your choice: ");
         scanf("%d",&o);
         if(o==1)
         {
-            scanf("%d %d",&r,&c);
+            printf("Rows: ");
+            scanf("%d",&r);
+            printf("Columns: ");
+            scanf("%d",&c);
+            printf("Input a 2D array:\n");
             for(i=0;i<r;i++)
             {
                 for(j=0;j<c;j++)
                 {
-                    scanf("%d ",&mat[i][j]);
+                    scanf("%d",&mat[i][j]);
                 }
             }
         }
@@ -54,6 +59,10 @@ int main()
                 printf("\n");
             }
         }
-        if(o==5) return 0;
+        if(o==5)
+        {
+            printf("End!!!");
+            return 0;
+        }
     }
 }
