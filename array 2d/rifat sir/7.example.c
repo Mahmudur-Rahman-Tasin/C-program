@@ -18,7 +18,8 @@ int main()
     for(int i=0;i<m;i++)
     {
         scanf("%s",ara2[i]);
-        int j;
+    }
+        int j,i;
         for(j=0;j<n;j++)
         {
             if(strcmp(ara1[j],ara2[i])==0)
@@ -31,4 +32,4 @@ int main()
     }
 
 
-}
+
