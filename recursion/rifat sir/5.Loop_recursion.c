@@ -6,6 +6,10 @@ void loop(int start, int end, int increment)
 
     printf("%d ",start);
     loop(start+increment, end, increment);
+    // or
+    // printf("%d ",start);
+    // if(start==end) return;
+    // loop(start+increment, end, increment);
 }
 
 int main()

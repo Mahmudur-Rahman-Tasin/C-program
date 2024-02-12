@@ -12,7 +12,6 @@ void PrintNatural(int n)
 
 int main()
 {
-    int x=10;
-    PrintNatural(x);
-
+    int n=10;
+    PrintNatural(n);
 }
